@@ -48,7 +48,7 @@ function App() {
         const srcDOM = parser.parseFromString(data, "application/xml");
         const res = xml2json(srcDOM);
         console.log(res);
-        setCityState({ ...cityState, city: "", state: "" });
+        setCityState({ ...cityState, city: res, state: "" });
       } catch (e) {
         console.log(e);
       }
