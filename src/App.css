@@ -28,7 +28,10 @@ input[type="text"]:disabled {
 label {
   font-size: 1.3rem;
 }
-
+pre {
+  white-space: pre-wrap;
+  width: 50%;
+}
 .input-container {
   position: relative;
 }
