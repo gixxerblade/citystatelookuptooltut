@@ -1,9 +1,0 @@
-{
-    "CityStateLookupResponse": {
-        "ZipCode": {
-            "Zip5": "90210",
-            "City": "BEVERLY HILLS",
-            "State": "CA"
-        }
-    }
-}
